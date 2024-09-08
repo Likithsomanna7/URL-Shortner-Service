@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(13, 13, 42);
+  height: 100px;
+  display: flex;               
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 40px;  
+
+}
+
+nav ul {
+  list-style-type: none;     
+  display: flex;  
+  align-items: center;
+  justify-content: center;             
+}
+
+nav ul li {
+  margin-right: 60px;    
+}       
+
+nav ul li a {
+  color: white;               
+  text-decoration: none;      
+  font-size: 18px;            
+}
+
+nav ul li a:hover {
+  text-decoration: underline;  
+}
+
+.body-div
+{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #ffff;
+
+}
+input[type="text"] {
+  height: 40px;
+  padding: 10px;
+  width: 400px;
+  border-top-color:rgb(250, 11, 11);
+  border-bottom-color:rgb(76, 2, 167) ;
+  border-right-color:rgb(131, 167, 251) ;
+  border-left-color:rgb(253, 171, 169) ;
+}
+button
+{
+ font-size: large;
+ margin-left: 20px;
+ background-color: #ffff;
+ padding: 7px;
+ border-radius: 8px;
+ border-top-color:rgb(234, 28, 13);
+ border-bottom-color:rgb(119, 17, 245) ;
+ border-right-color:rgb(131, 167, 251) ;
+ border-left-color:rgb(253, 171, 169) ;
+ font-family: sans-serif;
+ font-weight: 600;
+}
+.body-innerdiv h1 
+{
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: grey;
+}
+.body-innerdiv span
+{
+  font-size: 2.5em;
+  font-weight: bolder;
+  background: linear-gradient( to right,red,blue);
+  color: transparent;
+  -webkit-background-clip:text;
+}
+button:hover
+{
+  background-color: rgb(214, 205, 205);
+}
+input[type="text"]:focus
+{
+  transform: scale(1.05);
+  border-color: rgb(239, 239, 254);
+}
+img
+{
+  height: 70px;
+  width :100px;
+  overflow: hidden;
+  margin-right:950px;
+
+  
+}
+
+p
+{
+  border:0.5px solid black;
+  margin-top: 20px;
+  width:400px;
+  padding: 10px;
+}
+.tablediv
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 250px; 
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border: none;
+}
+table {
+  border-collapse: collapse; 
+  width: 40%;
+ 
+}
+
+.tablediv::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+th, td {
+  border: 1px solid black; 
+  padding: 8px;
+  text-align: center; 
+
+}
+
+th {
+  background-color: #f2f2f2; 
+  text-decoration: underline;
+  
+}
+ 
